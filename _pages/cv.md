@@ -20,16 +20,9 @@ Work experience
 
 * Spring 2021 - current: Research Assistant
   * Supervisor: Professor Michael Swift
-* Fall 2024: Teaching Assistant
-  * CS 220
-  * Duties includes: project design and implementation, office hours
-* Spring 2023: Teaching Assistant
-  * CS 220
-  * Duties includes: project design and implementation, office hours
-
-* Fall 2023: Teaching Assistant
-  * CS 354
-  * Duties includes: grading projects, exams, having office hours
+* Fall 2023-current: Teaching Assistant
+  * CS 354 and CS 220
+  * Duties includes: grading projects, exams, having office hours, project design and implementation
 
 
 Skills
@@ -40,7 +33,6 @@ Skills
 * gem5 architectural simulator
 * Languages
   * C/C++/Java/Python
-* 
 
 Publications
 ======
@@ -48,10 +40,10 @@ Publications
   * CRISP Annual Review, 11/2021.
 * Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
   * Wisconsin Computer Architecture Affiliates, 10/2021. 
-  
-  <ul>{% for post in site.publications reversed %}
+
+  <!-- <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Talks
 ======
@@ -59,9 +51,9 @@ Talks
   * CRISP Annual Review, 11/2021.
 * Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
   * Wisconsin Computer Architecture Affiliates, 10/2021. 
-  <ul>{% for post in site.talks reversed %}
+  <!-- <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
 
 
 
