@@ -34,36 +34,28 @@ Skills
 * Languages
   * C/C++/Java/Python
 
-Publications
-======
-* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
-  * CRISP Annual Review, 11/2021.
-* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
-  * Wisconsin Computer Architecture Affiliates, 10/2021. 
 
-  <!-- <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
   
 Talks
 ======
-* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+* Lightening Talk: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
   * CRISP Annual Review, 11/2021.
-* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+* Lightening Talk: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
   * Wisconsin Computer Architecture Affiliates, 10/2021. 
-  <!-- <ul>{% for post in site.talks reversed %}
+  
+  [<ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>]: #
 
 
 
 
-<!-- Teaching
+[Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul> -->
   
-<!-- Service and leadership
+Service and leadership
 ======
-* Currently signed in to 43 different slack teams -->
+* Currently signed in to 43 different slack teams]: #
