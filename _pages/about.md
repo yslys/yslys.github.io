@@ -8,7 +8,7 @@ redirect_from:
 ---
 I am a second year CS graduate student at the University of Wisconsin-Madison, advised by Prof. Michael Swift.
 
-My research interests include Operating Systems and Computer Architecture.
+My research interests include hardware-software co-design, Operating Systems and Computer Architecture.
 
 
 
