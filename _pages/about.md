@@ -12,15 +12,15 @@ My research interests include Operating Systems and Computer Architecture.
 
 
 
-## Research Project:
+# Research Project:
 I designed an interface of near-memory accelerator that communicates with the host via PCIe. This is a software-hardware co-design, which allows me to touch all three layers of computer system: hardware level, kernel level and software level. I regard myself as a combination of three engineering teams. If you do not believe it, you can keep reading. Let's start with kernel level:
 
-#### Kernel Level
+## Kernel Level
 * The interface is a portable Linux kernel module that can be easily adjusted to support any PCIe device
 * To verify the correctness of the interface, I simulated an accelerator in QEMU. After a series of testing and debugging, the interface functions well.
 * With the interface being done, the next question is - how to evaluate its performance? QEMU is a functional simulator, not providing us with timing information. So, gem5 is the best candidate.
 
-#### Hardware level
+## Hardware level
 * I started simulating the accelerator in gem5. 
   * Before doing that, I kept in mind what workloads I would like to optimize - memory-intensive workloads, of which Star-Schema Benchmark is a good candidate.
 * Database accelerator simulation
@@ -39,7 +39,7 @@ I designed an interface of near-memory accelerator that communicates with the ho
     * gem5 has a cool function called `schedule(event, latency)` i.e. scheduling an `event` `latency` ticks later. On completion of any event, there will be a callback function being invoked. I implemented a centralized scheduler which is being invoked on completion of any event, and that scheduler will always scan through all query units and see if they can transit to the next stage, with available hardware resource. So my design is guaranteed to be correct, and accurate, as long as the latencies are reasonable.
 * The reason I need to simulate the accelerator is because I need to evaluate my interface, but as you can see, the simulation piece can already be a huge amount of work.
 
-#### User level
+## User level
 * What's next? Workloads implementation
   * Now that we have the simulated accelerator and the interface, we need to run some workloads!
   * One thing I appreciate the modular design is that we can simply modify one layer without needing to modify other layers to get it work. However, in this work, it is not as simple as it is.
@@ -47,7 +47,7 @@ I designed an interface of near-memory accelerator that communicates with the ho
   * I need to go through the source code of the workload, understand it and figure out where to add the interface.
   * Of course, with endless debugging due to cross-layer design.
 
-### What brings me with this experience?
+## What this experience brings me?
 * Systems design skills:
   * From the naive design to the pipelined design.
   * Cooperating all three layers to make sure they work properly.
