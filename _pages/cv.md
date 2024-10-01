@@ -17,21 +17,21 @@ Education
 
 Work experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+* Spring 2021 - current: Research Assistant
+  * Supervisor: Professor Michael Swift
+* Fall 2024: Teaching Assistant
+  * CS 220
+  * Duties includes: project design and implementation, office hours
+* Spring 2023: Teaching Assistant
+  * CS 220
+  * Duties includes: project design and implementation, office hours
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+* Fall 2023: Teaching Assistant
+  * CS 354
+  * Duties includes: grading projects, exams, having office hours
+
+
 Skills
 ======
 * Linux
@@ -41,24 +41,36 @@ Skills
 * Languages
   * C/C++/Java/Python
 * 
-<!-- 
+
 Publications
 ======
+* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+  * CRISP Annual Review, 11/2021.
+* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+  * Wisconsin Computer Architecture Affiliates, 10/2021. 
+  
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul> -->
+  {% endfor %}</ul>
   
 Talks
 ======
+* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+  * CRISP Annual Review, 11/2021.
+* Poster: “Efficient interfaces to Near Memory Accelerators” Yusen Liu, Michael Swift.
+  * Wisconsin Computer Architecture Affiliates, 10/2021. 
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
-Teaching
+
+
+
+
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 <!-- Service and leadership
 ======
