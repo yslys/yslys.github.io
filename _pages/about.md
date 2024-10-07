@@ -21,8 +21,9 @@ I designed an interface of near-memory accelerator that communicates with the ho
 * With the interface being done, the next question is - how to evaluate its performance? QEMU is a functional simulator, not providing us with timing information. So, gem5 is the best candidate.
 
 ## Hardware level
-* I started simulating the accelerator in gem5. 
+* I started simulating the accelerator in gem5.
   * Before doing that, I kept in mind what workloads I would like to optimize - memory-intensive workloads, of which Star-Schema Benchmark is a good candidate.
+  * I borrowed some implementation in gem5-GPU to setup the skeleton of the accelerator and IOMMU.
 * Database accelerator simulation
   * I borrowed the design of Intel's Data Streaming Accelerator.
   * For the operations the accelerator support, I picked selection, projection and aggregation.
@@ -56,7 +57,7 @@ I designed an interface of near-memory accelerator that communicates with the ho
   * I wrote a lot of code.
   * I deleted a lot of code (due to false design).
   * There is still a lot of code left.
-  * I don't know how many lines of C and C++ code I have written :).
+  * I don't remember how many lines of C and C++ code I have written :).
 * Strong debugging skills.
   * High cost of making a mistake - each run takes around 10 minutes on microbenchmark, 1 hour for real-world workload. I need to find a fast way to locate the bug with a minimal reproducible example.
   * Debugging tools? I cannot run GDB in gem5's emulated environment since it is too slow.
