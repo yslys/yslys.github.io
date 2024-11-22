@@ -13,8 +13,10 @@ My research interests include hardware-software co-design, Operating Systems and
 
 
 # Research Project:
-I designed an interface of near-memory accelerator that communicates with the host via PCIe. This is a software-hardware co-design, which allows me to touch all three layers of computer system: hardware level, kernel level and software level. I regard myself as a combination of three engineering teams. If you do not believe it, you can keep reading. Let's start with kernel level:
+I designed an interface of near-memory accelerator that communicates with the host via PCIe. This is a software-hardware co-design, which allows me to touch all three layers of computer system: hardware level, kernel level and software level. 
 
+<!-- I regard myself as a combination of three engineering teams. If you do not believe it, you can keep reading. Let's start with kernel level: -->
+<!-- 
 ## Kernel Level
 * The interface is a portable Linux kernel module that can be easily adjusted to support any PCIe device
 * To verify the correctness of the interface, I simulated an accelerator in QEMU. After a series of testing and debugging, the interface functions well.
@@ -63,4 +65,4 @@ I designed an interface of near-memory accelerator that communicates with the ho
   * Debugging tools? I cannot run GDB in gem5's emulated environment since it is too slow.
   * How did I debug? I can only use `printf()` and analyze the trace, due to the concurrent execution of the query units.
 * The ability to work with large code bases including Linux, and gem5.
-
+ -->
